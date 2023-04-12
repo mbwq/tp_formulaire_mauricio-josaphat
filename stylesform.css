@@ -1,0 +1,194 @@
+body{
+    background: linear-gradient(90deg,gray,rgba(66, 60, 60, 0.879));   
+    width: 1100px;                                                         
+}
+
+h1{
+    background-color: black;
+    font-family: monospace;
+    color: white;
+    font-size: 50px;
+    width: 45%;
+    height: 85px;
+    border-radius: 6px;
+    padding: 1px 5px;
+    
+}
+
+p{
+    position: relative;top: -40px; left: 40%;
+    font-size: 20px;
+    background-color: gray;
+    font-family: monospace;
+    color: white;
+    width: 30%;
+    height: 50px;
+    border: 1px solid gray;
+    border-radius: 18px;
+    text-align: center;
+}
+
+.haut{
+    position: relative;top: -78px;left: -65px;
+    width: 312px;
+    height: 175px;
+    background-color: brown;
+    border-radius: 11px;
+    
+}
+
+.gauche-bas{
+    position: relative;bottom: -20px;left: -2px;
+    width: 312px;
+    background-color: brown;
+    border-radius: 5%;
+    height: 250px;
+}
+
+.droite{
+    position: relative;bottom: -230px;right: -275px;
+    background-color: brown;
+    width: 505px;
+    border-radius: 11px;
+    margin-top: -490px;
+    height: 355px;
+}
+
+.Envoi{
+    background-color: greenyellow;
+}
+.Reini{
+    background-color: peachpuff;
+}
+
+.pc{
+    position: relative;left: -35%;bottom: -11px;
+    background-color: rgb(181, 197, 214);
+    border-radius: 18px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2px;
+    margin: 4px 109px;
+    font-size: 15px;
+
+}
+
+
+
+
+
+
+.name{
+
+    background-color:rgba(208, 191, 191, 0.831);
+    border-radius: 15px;
+    position: relative;top: 8px;
+    padding: -4px -11px;
+    margin: 9px 11px;
+    
+    
+}
+
+
+.name2{
+    background-color:rgba(208, 191, 191, 0.831);
+    position: relative;bottom: -5.8px;
+    padding: -11px;
+    height: 47px;
+    margin: 12px 7px;
+    border-radius: 11px;
+}
+
+
+
+.script{
+    position: relative;bottom: 38px;
+    width: 720px;
+    margin-left: 20%;
+    background-color: rgb(35, 28, 28);
+    border-radius: 20px;
+    height: 315px;
+    padding: 80px;
+}
+
+
+#description{
+    position: relative;right: -2px;bottom: -1px;
+    width: 418px;
+    height: 245px;
+}
+
+.bouton{
+    position: relative;bottom: -255px;right: -65%;
+    
+}
+
+.demande{
+    position: relative;left: 7%;bottom: -4px;
+    background-color: rgb(181, 197, 214);
+    border-radius: 10px;
+    
+    text-align: center;
+    padding: -1.4px -12px;
+    margin: 7px 39px;
+}
+
+
+.kline{
+    position: relative;bottom: 21px;right: -60px;    
+    background-color: rgb(181, 197, 214);
+    
+    display: flex;
+    flex-wrap: nowrap;
+    padding: 7.5px;
+    margin: 4px 69px;
+    text-align: 2px;
+    border-radius: 10px;
+}
+
+
+#projet{
+    width: 315px;
+}
+
+
+.perm{
+    background-color:rgb(181, 197, 214);
+    padding: 1px;
+    
+    margin: 5px 25px;
+    border-radius: 11px;
+}
+
+
+.gp{
+    background-color:rgb(181, 197, 214);
+    position: relative;top: 15px;left: -180px;
+    padding: -10px;
+    margin: 1.5px 185px;
+    border-radius: 10px;
+}
+
+.part{
+    background-color: rgb(181, 197, 214);
+    position: relative;bottom: 17px;right: -102px;
+    font-size: 17px;
+    width: 155px;
+    padding: -5px;
+    margin: 4px 6px;
+    border-radius: 17px;
+    
+}
+
+.part2{
+    background-color: rgb(181, 197, 214);
+    position: relative;bottom: -1.5px;right: 1px;
+    font-size: 17px;
+    width: 155px;
+    padding: -5px;
+    margin: 4px 6px;
+    border-radius: 17px;
+}
+
+
+

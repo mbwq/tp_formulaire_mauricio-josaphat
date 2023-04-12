@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylesform.css" type="text/css">
+
+    <title>Formulaire</title>
+</head>
+<body>
+  <!-- ici le titre de la page-->
+   <h1>Éditeur de script</h1>
+
+   <!-- ici le paragraphe de la page-->
+   <p>Nous sommettre votre projet:</p>
+   
+   <!-- La nous avons notre 1èr classe c'est la bordure noir-->
+<div class="script">
+
+   <!-- ici commence la mise en place du formulaire-->
+   <form method="post" action="formulaire.html">
+
+<!--la classe du haut-gauche-->
+<!--et des sous-classe comme name et pc-->
+<div class="haut">
+       <div class="name2">
+        <div class="pc"><label for="Nom">Nom</label></div>
+         <div class="kline">
+          <input type="text" id="Nom" name="Nom" placeholder="Jo" required>
+         </div>
+        </div>
+       <div class="name2">
+         <div class="pc"><label for="prénom">Prénom</label></div>
+          <div class="kline">
+           <input type="text" id="prénom" name="prénom" placeholder="Mau" required>
+          </div>
+       </div>
+       <div class="name2">
+         <div class="pc"><label for="email">E-mail</label></div>
+          <div class="kline">
+           <input type="email" id="email" name="email" placeholder="jo.maurice@mail.com" required>
+          </div>
+</div>  
+
+
+
+
+
+
+<!-- ici la classe du gaauche bas-->
+ <div class="gauche-bas">
+
+      <div class="name">
+        <div class="pc"><label for="Echeance">Echeance</label></div><br>
+        
+          <!--classe part pour cette partie-->
+            <div class="part">
+              <input type="radio" name="mois" value="3">sous 3 mois<br>
+               <input type="radio" name="mois" value="6">3 à 6 mois<br>
+              <input type="radio" name="mois" value="+">plus de 6 mois<br>
+            </div>
+           
+
+      </div> 
+
+
+    
+
+     <div class="name">
+       <div class="demande">
+        <label for="demande">Nature de la demander:</label><br>
+       </div>
+       <div class="perm">
+         <input type="checkbox" id="investissement" name="nature" value="investissement">
+        <label for="investissement">investiment</label><br>
+       </div>
+        <div class="perm">
+        <input type="checkbox" id="prestation" name="nature" value="prestation">
+        <label for="prestation">prestation de conseil</label><br>
+        </div>
+
+     
+        <div class="perm">
+       <label for="calendrier">Réponse sous</label>
+         <select name="calend" id="calendrier">
+            <option value="">choisir</option>
+            <option value="5 jours">5 jours</option>
+            <option value="8 jours">8 jours</option>
+            <option value="2 semaine">15 jours</option>
+          </select>
+        </div>
+      
+     </div>
+    
+ </div>
+</div>
+
+
+
+<!--ici nous avons la classe se la droite avec l'Intitulé et la description-->
+<!--avec le classe name2 pour le style css-->
+<div class="droite">
+
+     <!--class name2 pour bordure intitulé-->
+       <div class="name2">
+      
+        <div class="gp">
+        <label for="projet">Intitulé:</label>
+        </div>
+
+         <div class="kline">
+          <input type="projet"id="projet" name="projet" placeholder="intitulé du projet" required>
+         </div>
+       </div>
+       
+    <div class="name">
+      
+      <div class="part2"><label for="description">Decription du projet</label><br></div>
+      <div class="perm"><textarea id="description" name="description" placeholder="" required>
+        </textarea>
+      </div>
+    </div>
+     
+   
+
+</div>
+
+
+<!-- et la classe pour les boutons-->
+  <div class="bouton">
+    <input type="submit". class="Envoi" value="Envoyer">
+    <input type="submit". class="Reini" value="Reinitialisée">
+  </div>
+
+   </form>
+   <!--fin du formulaire-->
+  </div>
+
+
+</body>
+</html>
